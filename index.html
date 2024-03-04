@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 16px; text-align: center; margin-top: 30px; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    @font-face {
+      font-family: "figtree";
+      src: url("assets/fonts/Figtree-VariableFont_wght.ttf");
+    }
+    body{
+      background-color: hsl(47, 88%, 63%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      min-height: 100vh;
+      overflow: hidden;
+      font-family: "figtree";
+    }
+    section{
+      background-color: hsl(0, 0%, 100%);
+      width: 350px;
+      padding: 20px;
+      border-radius: 20px;
+      border: 1px solid hsl(0, 0%, 7%);
+      box-shadow: 7px 7px 0 1px hsl(0, 0%, 7%);
+    }
+    section img{
+      display: block;
+      border-radius: 7px;
+      width: 100%;
+    }
+    section p.learning{
+      background-color: hsl(47, 88%, 63%);
+      color: hsl(0, 0%, 7%);
+      display: inline-block;
+      padding: 9px;
+      border-radius: 4px;
+      font-weight: 800;
+      margin-top: 20px;
+    }
+    section p.published{
+      font-weight: 500;
+      color: hsl(0, 0%, 7%);
+      margin-top: 10px;
+      font-size: 15px;
+    }
+    section p.html{
+      font-size: 25px;
+      font-weight: 800;
+      margin-top: 15px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    section p.html:hover{
+      color: hsl(47, 88%, 63%);
+    }
+    section p.languages{
+      color: hsl(0, 0%, 50%);
+      font-weight: 500;
+      margin-top: 15px;
+    }
+    section div{
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+    }
+    section div img{
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+    }
+    section div p{
+      margin-left: 20px;
+      font-weight: 800;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <img src="assets/images/illustration-article.svg" alt="">
+    <p class="learning">Learning</p>
+    <p class="published">Published 21 Dec 2023</p>
+    <p class="html">HTML & CSS foundations</p>
+    <p class="languages">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+    <div>
+    <img src="assets/images/image-avatar.webp" alt="">
+    <p>Greg Hooper</p>
+    </div>
+  </section>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/ramighazzawi2002" target="_blank">Rami Ghazzawi</a>.
+  </div>
+</body>
+</html>
