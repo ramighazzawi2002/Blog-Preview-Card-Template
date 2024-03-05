@@ -1,4 +1,4 @@
-# Project Title
+# Blog Preview Card Template
 
 This is a simple project that demonstrates the use of HTML and CSS to create a blog preview card.
 
